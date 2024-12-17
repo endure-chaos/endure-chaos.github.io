@@ -1,1 +1,80 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c0d21; /* Dark purple */
+    color: #d4b1ff; /* Soft purple */
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    padding: 2rem;
+    background-color: #290c36; /* Slightly lighter purple */
+}
+
+header h1 {
+    color: #c99bf8;
+    font-size: 2.5rem;
+}
+
+header p {
+    color: #d4b1ff;
+    font-size: 1.2rem;
+}
+
+.hero {
+    padding: 3rem 1rem;
+}
+
+.chaos-img {
+    width: 300px;
+    margin: 1rem auto;
+    display: block;
+    border: 3px solid #6c3b8c;
+    border-radius: 50%;
+}
+
+.narrative {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #3b1545; /* Dark magenta */
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.narrative h3 {
+    color: #e8c2ff;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    margin: 2rem;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #5e268b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #7629a6;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #290c36;
+    color: #d4b1ff;
+    font-size: 0.9rem;
+}
