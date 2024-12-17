@@ -78,3 +78,24 @@ footer {
     color: #d4b1ff;
     font-size: 0.9rem;
 }
+.notice {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #3b1545; /* Dark magenta background */
+    border: 2px solid #7629a6; /* Accent border */
+    color: #e8c2ff; /* Soft light purple text */
+    text-align: center;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.notice h3 {
+    color: #d79bff;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.notice p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
